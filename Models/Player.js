@@ -9,18 +9,32 @@ const PlayerSchema = new mongoose.Schema({
   gamesPlayed: {
     type: Number,
     required: true,
+    default: 0,
   },
   wins: {
     type: Number,
     required: true,
+    default: 0,
   },
   losses: {
     type: Number,
     required: true,
+    default: 0,
   },
   draws: {
     type: Number,
     required: true,
+    default: 0,
+  },
+  goals: {
+    type: Number,
+    required: true,
+    default: 0,
+  },
+  assits: {
+    type: Number,
+    required: true,
+    default: 0,
   },
 });
 
